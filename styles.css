@@ -3,3 +3,28 @@
 /* Note: an asteroid image is included in this repo. 
 Feel free to use it if you like. */
 
+.old{
+  color: gray;
+  font-size: 30pt;
+}
+.new{
+  color: red;
+  font-size: 50pt;
+}
+.board{
+  background-color: black;
+}
+.enemy{
+  fill: white;
+}
+.player{
+  fill:white;
+  z-index: 100;  
+}
+.weapon{
+  fill: blue;
+}
+.fireball{
+  fill: red;
+  opacity: 0.5;
+}
